@@ -13,7 +13,7 @@ body {
 }
 
 .product-section img {
-    width: 350px;
+    width: 300px;
     height: auto;
 }
 
@@ -21,6 +21,15 @@ body {
     opacity: 0.8;
 }
 
+.product-section {
+    display: flex;
+    flex-direction: column;
+}
+
 :root {
     --primary-colors: #272629;
+}
+
+.flex {
+    display: flex;
 }

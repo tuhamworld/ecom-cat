@@ -23,12 +23,13 @@ input[type="button"] {
 
 
 
-.card {
+.card,
+.single-product {
     color: #000;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 40px 20px 80px 20px;
+    padding: 20px 10px 40px 10px;
     margin: 10px;
 }
 
@@ -54,8 +55,8 @@ input[type="button"] {
     display: inline-block;
     padding: 13px 70px;
     cursor: pointer;
-    background-color: var(--primary-color);
-    color: #252121;
+    background-color: var(--primary-colors);
+    color: #fff;
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -165,7 +166,8 @@ input[type="button"] {
 }
 
 
-.text-center {
+.text-center,
+h2 {
     text-align: center;
 }
 

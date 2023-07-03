@@ -17,6 +17,10 @@ body {
     height: auto;
 }
 
+button {
+    font-family: Poppins;
+}
+
 .product-section img:hover {
     opacity: 0.8;
 }
@@ -27,7 +31,7 @@ body {
 }
 
 :root {
-    --primary-colors: #272629;
+    --primary-colors: #C63450;
 }
 
 .flex {

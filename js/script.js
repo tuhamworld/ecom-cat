@@ -8,10 +8,15 @@ let wearProducts = document.querySelector('.wears');
 
 function allProducts() {
     electronicProducts.style.display = 'block';
+    electronicProducts.style.display = 'flex';
     kitchenProducts.style.display = 'block';
+    kitchenProducts.style.display = 'flex';
     sportProducts.style.display = 'block';
+    sportProducts.style.display = 'flex';
     wearProducts.style.display = 'block';
+    wearProducts.style.display = 'flex';
     chairProducts.style.display = 'block';
+    chairProducts.style.display = 'flex';
 }
 
 function chairsProduct() {
@@ -20,6 +25,7 @@ function chairsProduct() {
     sportProducts.style.display = 'none';
     wearProducts.style.display = 'none';
     chairProducts.style.display = 'block';
+    chairProducts.style.display = 'flex';
 }
 function electronicsProduct() {
     kitchenProducts.style.display = 'none';
@@ -27,10 +33,12 @@ function electronicsProduct() {
     wearProducts.style.display = 'none';
     chairProducts.style.display = 'none';
     electronicProducts.style.display = 'block';
+    electronicProducts.style.display = 'flex';
 }
 function kitchenProduct() {
     electronicProducts.style.display = 'none';
     kitchenProducts.style.display = 'block';
+    kitchenProducts.style.display = 'flex';
     sportProducts.style.display = 'none';
     wearProducts.style.display = 'none';
     chairProducts.style.display = 'none';
@@ -40,6 +48,7 @@ function wearsProduct() {
     kitchenProducts.style.display = 'none';
     sportProducts.style.display = 'none';
     wearProducts.style.display = 'block';
+    wearProducts.style.display = 'flex';
     chairProducts.style.display = 'none';
 }
 
@@ -47,6 +56,7 @@ function sportsProduct() {
     electronicProducts.style.display = 'none';
     kitchenProducts.style.display = 'none';
     sportProducts.style.display = 'block';
+    sportProducts.style.display = 'flex';
     wearProducts.style.display = 'none';
     chairProducts.style.display = 'none';
 }

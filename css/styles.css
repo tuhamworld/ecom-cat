@@ -32,4 +32,9 @@ body {
 
 .flex {
     display: flex;
+    flex-direction: row;
+}
+
+.chairs-product {
+    display: flex;
 }

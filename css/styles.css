@@ -27,7 +27,7 @@ button {
 
 .product-section {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 :root {

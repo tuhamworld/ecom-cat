@@ -1,5 +1,8 @@
 // Method #1
 
+
+
+
 function showProducts(category) {
 
     const products = {
@@ -46,83 +49,16 @@ function showProducts(category) {
         const img = document.createElement('img');
         const h2 = document.createElement('h2');
         const para = document.createElement('p');
+        const div = document.createElement('div');
 
         img.src = product.image;
         img.alt = product.name;
         h2.innerText = product.name;
         para.innerText = product.description;
+        productSection.appendChild(div);
         productSection.appendChild(img);
         productSection.appendChild(h2);
         productSection.appendChild(para);
     });
 
 }
-
-
-
-
-
-// Method #2
-
-// let productSection = document.querySelector('.product-section')
-// let chairProducts = document.querySelector('.chairs-product');
-// let electronicProducts = document.querySelector('.electronics-product');
-// let kitchenProducts = document.querySelector('.kitchen');
-// let sportProducts = document.querySelector('.sports');
-// let wearProducts = document.querySelector('.wears');
-
-
-// function allProducts() {
-//     electronicProducts.style.display = 'block';
-//     electronicProducts.style.display = 'flex';
-//     kitchenProducts.style.display = 'block';
-//     kitchenProducts.style.display = 'flex';
-//     sportProducts.style.display = 'block';
-//     sportProducts.style.display = 'flex';
-//     wearProducts.style.display = 'block';
-//     wearProducts.style.display = 'flex';
-//     chairProducts.style.display = 'block';
-//     chairProducts.style.display = 'flex';
-// }
-
-// function chairsProduct() {
-//     electronicProducts.style.display = 'none';
-//     kitchenProducts.style.display = 'none';
-//     sportProducts.style.display = 'none';
-//     wearProducts.style.display = 'none';
-//     chairProducts.style.display = 'block';
-//     chairProducts.style.display = 'flex';
-// }
-// function electronicsProduct() {
-//     kitchenProducts.style.display = 'none';
-//     sportProducts.style.display = 'none';
-//     wearProducts.style.display = 'none';
-//     chairProducts.style.display = 'none';
-//     electronicProducts.style.display = 'block';
-//     electronicProducts.style.display = 'flex';
-// }
-// function kitchenProduct() {
-//     electronicProducts.style.display = 'none';
-//     kitchenProducts.style.display = 'block';
-//     kitchenProducts.style.display = 'flex';
-//     sportProducts.style.display = 'none';
-//     wearProducts.style.display = 'none';
-//     chairProducts.style.display = 'none';
-// }
-// function wearsProduct() {
-//     electronicProducts.style.display = 'none';
-//     kitchenProducts.style.display = 'none';
-//     sportProducts.style.display = 'none';
-//     wearProducts.style.display = 'block';
-//     wearProducts.style.display = 'flex';
-//     chairProducts.style.display = 'none';
-// }
-
-// function sportsProduct() {
-//     electronicProducts.style.display = 'none';
-//     kitchenProducts.style.display = 'none';
-//     sportProducts.style.display = 'block';
-//     sportProducts.style.display = 'flex';
-//     wearProducts.style.display = 'none';
-//     chairProducts.style.display = 'none';
-// }

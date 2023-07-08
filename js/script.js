@@ -55,16 +55,16 @@ function showProducts(category) {
             const productList = products[category];
             productList.forEach(product => {
                 const img = document.createElement('img');
-                const h2 = document.createElement('h2');
+                const h3 = document.createElement('h3');
                 const para = document.createElement('p');
                 const div = document.createElement('div');
 
                 img.src = product.image;
                 img.alt = product.name;
-                h2.innerText = product.name;
+                h3.innerText = product.name;
                 para.innerText = product.description;
                 div.appendChild(img);
-                div.appendChild(h2);
+                div.appendChild(h3);
                 div.appendChild(para);
 
                 div.classList.add('single-product');
@@ -81,16 +81,16 @@ function showProducts(category) {
         const selectedProducts = products[category];
         selectedProducts.forEach(product => {
             const img = document.createElement('img');
-            const h2 = document.createElement('h2');
+            const h3 = document.createElement('h3');
             const para = document.createElement('p');
             const div = document.createElement('div');
 
             img.src = product.image;
             img.alt = product.name;
-            h2.innerText = product.name;
+            h3.innerText = product.name;
             para.innerText = product.description;
             div.appendChild(img);
-            div.appendChild(h2);
+            div.appendChild(h3);
             div.appendChild(para);
 
             div.classList.add('single-product');

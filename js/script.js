@@ -41,28 +41,63 @@ function showProducts(category) {
 
     };
 
+
+    // Getting Product Section ID and displaying it blank
+
     const productSection = document.querySelector('.product-section');
     productSection.innerHTML = '';
 
-    const selectedProducts = products[category];
-    selectedProducts.forEach(product => {
-        const img = document.createElement('img');
-        const h2 = document.createElement('h2');
-        const para = document.createElement('p');
-        const div = document.createElement('div');
 
-        img.src = product.image;
-        img.alt = product.name;
-        h2.innerText = product.name;
-        para.innerText = product.description;
-        div.appendChild(img);
-        div.appendChild(h2);
-        div.appendChild(para);
+    // Displaying all Products
 
-        div.classList.add('single-product');
-        img.classList.add('card');
+    if (category === 'all') {
+        for (const category in products) {
+            const productList = products[category];
+            productList.forEach(product => {
+                const img = document.createElement('img');
+                const h2 = document.createElement('h2');
+                const para = document.createElement('p');
+                const div = document.createElement('div');
 
-        productSection.appendChild(div);
-    });
+                img.src = product.image;
+                img.alt = product.name;
+                h2.innerText = product.name;
+                para.innerText = product.description;
+                div.appendChild(img);
+                div.appendChild(h2);
+                div.appendChild(para);
 
+                div.classList.add('single-product');
+                img.classList.add('card');
+
+                productSection.appendChild(div);
+
+            })
+        }
+    } else {
+
+
+
+        const selectedProducts = products[category];
+        selectedProducts.forEach(product => {
+            const img = document.createElement('img');
+            const h2 = document.createElement('h2');
+            const para = document.createElement('p');
+            const div = document.createElement('div');
+
+            img.src = product.image;
+            img.alt = product.name;
+            h2.innerText = product.name;
+            para.innerText = product.description;
+            div.appendChild(img);
+            div.appendChild(h2);
+            div.appendChild(para);
+
+            div.classList.add('single-product');
+            img.classList.add('card');
+
+            productSection.appendChild(div);
+        });
+
+    }
 }

@@ -4,6 +4,10 @@ body {
     font-family: Poppins;
 }
 
+:root {
+    --primary-colors: #C63450;
+}
+
 /* General Settings */
 
 * {
@@ -27,18 +31,9 @@ button {
 
 .product-section {
     display: flex;
-    /* flex-direction: column; */
 }
 
-:root {
-    --primary-colors: #C63450;
-}
-
-.flex {
-    display: flex;
-    flex-direction: row;
-}
-
-.chairs-product {
-    display: flex;
+.single-product {
+    margin: 0px 2px;
+    padding: 5px;
 }

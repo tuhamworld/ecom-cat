@@ -59,6 +59,8 @@ function showProducts(category) {
         div.appendChild(h2);
         div.appendChild(para);
 
+        div.classList.add('single-product');
+
         productSection.appendChild(div);
     });
 

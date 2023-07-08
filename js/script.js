@@ -60,6 +60,7 @@ function showProducts(category) {
         div.appendChild(para);
 
         div.classList.add('single-product');
+        img.classList.add('card');
 
         productSection.appendChild(div);
     });

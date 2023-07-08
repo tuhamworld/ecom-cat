@@ -55,10 +55,11 @@ function showProducts(category) {
         img.alt = product.name;
         h2.innerText = product.name;
         para.innerText = product.description;
+        div.appendChild(img);
+        div.appendChild(h2);
+        div.appendChild(para);
+
         productSection.appendChild(div);
-        productSection.appendChild(img);
-        productSection.appendChild(h2);
-        productSection.appendChild(para);
     });
 
 }

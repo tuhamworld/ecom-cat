@@ -10,13 +10,18 @@ function showProducts(category) {
             { name: 'Borba Chair', image: '/images/borba-chair.jpg', description: 'This is an awesome Borba Chair' },
             { name: 'Brow Chair', image: '/images/brow-chair.jpg', description: 'This is an awesome Brow Chair' },
             { name: 'Cute Chair', image: '/images/cute-chair.jpg', description: 'This is an awesome Cute Chair' },
-            { name: 'Lamp Chair', image: '/images/lamp-chair.jpg', description: 'This is an awesome Lamp Chair' }
+            { name: 'Lamp Chair', image: '/images/lamp-chair.jpg', description: 'This is an awesome Lamp Chair' },
+            { name: 'Wooden Chair', image: '/images/wooden_chair.jpg', description: 'This is an awesome Wooden Chair' },
+            { name: 'White Chair', image: '/images/white-chair.jpg', description: 'This is an awesome White Chair' }
         ],
         electronicProducts: [
             { name: 'Dark Electronics', image: '/images/electronics-dark.jpg', description: 'This is an awesome Dark Electronics' },
             { name: 'Drone Electronics', image: '/images/electronics-drone.jpg', description: 'This is an awesome Drone Electronics' },
             { name: 'PC Electronics', image: '/images/electronics-pc.jpg', description: 'This is an awesome PC Electronics' },
-            { name: 'White Phone', image: '/images/electronics-phone-white.jpg', description: 'This is an awesome White Phone' }
+            { name: 'White Phone', image: '/images/electronics-phone-white.jpg', description: 'This is an awesome White Phone' },
+
+            { name: 'Phone', image: '/images/electronics-phone.jpg', description: 'This is an awesome Phone' },
+            { name: 'Watch', image: '/images/electronics-watch.jpg', description: 'This is an awesome Watch' }
         ],
         kitchenProducts: [
             { name: 'Dark Kitchen', image: '/images/kitchen-dark.jpg', description: 'This is an awesome Dark Kitchen' },
